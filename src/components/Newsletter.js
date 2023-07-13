@@ -1,6 +1,7 @@
 import React from "react";
 
 import newsletter from "../assets/images/illustration-sign-up-desktop.svg";
+import newsletterMobile from '../assets/images/illustration-sign-up-mobile.svg'
 import iconlist from "../assets/images/icon-list.svg";
 import { validateEmail } from "../Utils";
 
@@ -63,7 +64,8 @@ export default function Newsletter({ email, setEmail, navigate }) {
         </form>
       </div>
       <div className="newsletter-image">
-        <img src={newsletter} alt="newsletter" width="300px" />
+        <img src={newsletter} alt="newsletter" className="desktop" />
+        <img src={newsletterMobile} alt="newsletter" className="mobile" />
       </div>
     </div>
   );
