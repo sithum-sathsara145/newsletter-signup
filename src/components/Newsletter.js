@@ -9,7 +9,11 @@ export default function Newsletter({ email, setEmail, navigate }) {
   const handleSubmit = (e) => {
     e.preventDefault();
     setEmail(email);
-    navigate("/success");
+    if (isValid){
+      navigate("/success");
+    }else{
+      alert("Incorrect Email")
+    }
   };
   console.log(email, isValid);
   return (

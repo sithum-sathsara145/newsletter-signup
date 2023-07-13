@@ -23,7 +23,7 @@ export default function App() {
             />
           }
         />
-        {isValid && (<Route path="/success" element={<SuccessMsg />} />)}
+        {isValid && (<Route path="/success" element={<SuccessMsg  email={email} navigate={navigate} />} />)}
         
       </Routes>
     </div>
