@@ -1,0 +1,85 @@
+.app{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletter{
+    width: 650px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+.newsletter-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+    gap: 20px;
+
+}
+.newsletter-content h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+}
+.newsletter-content p{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.ticklist{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+
+}
+.ticklist div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.ticklist div img{
+    width: 20px;
+}
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+form label{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+}
+form input{
+    width: 100%;
+    padding: 10px;
+    border: hsl(231, 7%, 60%) solid 1px;
+    border-radius: 8px;
+}
+form button{
+    width: 100%;
+    padding: 10px;
+    border: hsl(231, 7%, 60%) solid 1px;
+    border-radius: 8px;
+    background-color:hsl(234, 29%, 20%);
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    margin-top: 20px;
+}
